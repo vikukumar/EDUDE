@@ -1,0 +1,36 @@
+php_value display_errors Off
+php_value mbstring.http_input auto
+php_value date.timezone Asia/Calcutta
+php_value Directive value
+php_value max_input_time 120
+
+
+
+DirectoryIndex home.php
+
+ErrorDocument 403 https://edude.ml/error?e=403
+ErrorDocument 404 https://edude.ml/error?e=404
+ErrorDocument 410 https://edude.ml/error?e=410
+ErrorDocument 500 https://edude.ml/error?e=500
+ErrorDocument 502 https://edude.ml/error?e=502
+
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php  [NC,L]
+
+
+
+<IfModule mpm_*_module>
+  ServerLimit           5800
+  StartServers          4
+  MinSpareThreads       125
+  MaxSpareThreads       175
+  ThreadLimit           164
+  ThreadsPerChild       125
+  MaxRequestWorkers       5800
+  MaxConnectionsPerChild   3000
+</IfModule>

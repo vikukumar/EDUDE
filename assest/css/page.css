@@ -1,0 +1,337 @@
+/*
+***************************************************************************************
+|                  EDUDE EULA and Development License & Information                   |
+***************************************************************************************
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+=======================================================================================
+=======================================================================================
+| Developer Details
+=======================================================================================
+ * Developer Name: Vikash Kumar , Vishnu Vinoj
+ * Mentor's Name : Mr. Kaushal Kishore
+ * Guided by     : Dr. Santosh Kumar Shukla
+ * Organisation  : Babu Banarsi Das Institute of Technology,Ghaziabad
+ * Purpose       : Final Year Project
+ * Technology    : Progressive Web Application Using PHP
+ * FrontEnd      : HTML5 , CSS3 , Javascript(JQuery) , Bootstrap , Fontawesome , AOS
+ * BackEnd       : PHP 8 , AJAX 
+ * APIs          : Google Meet Links , ZOOM APIS (Both are only in Prototype)
+ * Current Model : Prototype Model
+ * Design Model  : UML , ER-Diagram , DFD and DDB
+ * Database      : MySQL, JSON(Not in Prototype)
+ * File Storage  : AWS or Firebase
+ * License Type  : Project Based
+ * Monitoring by : BBDIT, GHaziabad
+ * HomePage      : index.php
+ * Year          : 2020-2021
+ * Roll NO(s)    : 1703510042 , 1703510045
+ 
+=========================================================================================
+=========================================================================================
+| EULA for EDUDE
+=========================================================================================
+ * End User License Authorised for Prototype Project model.
+=========================================================================================
+=========================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Caveat&family=Fredericka+the+Great&family=Frijole&family=Press+Start+2P&family=ZCOOL+KuaiLe&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic);
+
+body{
+    background:rgba(0,0,0,0.05);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    
+}
+a,
+a:hover,
+a:focus{
+    text-decoration: none;
+}
+input,
+input:focus,
+input:active,
+input:checked,
+select,
+select:active{
+    display: inline;
+    border:none;
+    font-size:18px;
+    padding: 8px 50px;
+    border-radius: 50px;
+    background: #fff;
+ 
+}
+label,
+label:hover{
+    display: inline;
+    font-size:18px;
+}
+
+/****************** Pagination ************************************************/
+
+.ebody{
+    height: auto;
+}
+#about-main {
+  font-family: "Caveat" , sans-serif;
+  margin: 0 auto;
+}
+#about-main .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+#about-main .jumbotron {
+  width: 100%;
+  height: 530px;
+  background: linear-gradient(45deg,coral,lightcoral);
+  position: relative;
+  margin: 0;
+  z-index: 0;
+  border-radius: 0px;
+}
+#about-main .jumbotron .img-layer-container {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#about-main .jumbotron .img-layer-container img {
+  max-width: 95vw;
+}
+#about-main .jumbotron .img-layer-container .team-image {
+  position: absolute;
+}
+#about-main .jumbotron .img-layer-container .team-image img {
+  position: relative;
+  z-index: 1;
+}
+#about-main .jumbotron .img-layer-container .circles-container {
+  position: absolute;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#about-main .jumbotron .img-layer-container .circles-container .img-1 {
+  position: absolute;
+  z-index: 0;
+}
+#about-main .jumbotron .img-layer-container .circles-container .img-2 {
+  position: absolute;
+  z-index: 0;
+}
+#about-main .jumbotron .jumbotron-inner {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+#about-main .jumbotron .jumbotron-inner a {
+  text-decoration: none;
+}
+#about-main .jumbotron .jumbotron-inner .top-box {
+  max-width: 950px;
+  margin: 0 auto;
+}
+#about-main .jumbotron .jumbotron-inner .top-box .content-box {
+  margin: 0 50px 35px;
+}
+#about-main .jumbotron .jumbotron-inner .top-box .content-box h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#about-main .jumbotron .jumbotron-inner .top-box .content-box p {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 15px;
+}
+@media (max-width: 1401px) {
+  #about-main .jumbotron {
+    height: 595px !important;
+  }
+  #about-main .jumbotron .jumbotron-inner {
+    max-width: 900px;
+  }
+  #about-main .jumbotron .jumbotron-inner .top-box {
+    max-width: 900px;
+  }
+  #about-main .jumbotron .jumbotron-inner .top-box .content-box {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  #about-main .jumbotron .jumbotron-inner .top-box .content-box h3 {
+    font-size: 35px;
+    margin: 5px 0px 20px 0px;
+    color:#ED666B;
+    font-weight: 900;
+  }
+}
+@media (max-width: 1000px) {
+  #about-main .jumbotron .img-layer-container {
+    width: 100%;
+  }
+}
+@media (max-width: 815px) {
+  #about-main .jumbotron .jumbotron-inner {
+    max-width: 600px;
+  }
+}
+@media (max-width: 640px) {
+  #about-main .jumbotron {
+    height: 400px !important;
+  }
+  #about-main .jumbotron .jumbotron-inner {
+    max-width: 550px;
+    padding: 0 20px;
+  }
+  #about-main .jumbotron .img-1, #about-main .jumbotron .img-2, #about-main .jumbotron .team-image {
+    display: none;
+  }
+}
+@media (max-width: 420px) {
+  #about-main .jumbotron .jumbotron-inner {
+    max-width: 600px;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 400px) {
+  #about-main .jumbotron .jumbotron-inner .top-box .content-box {
+    margin: 30px 0;
+  }
+  #about-main .jumbotron .jumbotron-inner .top-box .content-box h1 {
+    font-size: 35px;
+  }
+  #about-main .jumbotron .jumbotron-inner .top-box .content-box p {
+    font-size: 19px;
+      font-weight: 900;
+  }
+}
+#about-main .story-container { 
+  width: 100%;
+  margin-top: 120px;
+}
+@media (max-width: 640px) {
+  #about-main .story-container {
+    margin-top: 80px;
+  }
+}
+#about-main .story-container .container-divider {
+  margin-top: 100px;
+}
+@media (max-width: 640px) {
+  #about-main .story-container .container-divider {
+    margin-top: 50px;
+  }
+}
+#about-main .story-container .need-for-dx-container, #about-main .story-container .our-tech-container, #about-main .story-container .origin-story-container, #about-main .story-container .today-container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@media (max-width: 815px) {
+  #about-main .story-container .need-for-dx-container, #about-main .story-container .our-tech-container, #about-main .story-container .origin-story-container, #about-main .story-container .today-container {
+    width: 100%;
+  }
+}
+#about-main .story-container .need-for-dx-container .img-container, #about-main .story-container .our-tech-container .img-container, #about-main .story-container .origin-story-container .img-container, #about-main .story-container .today-container .img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#about-main .story-container .need-for-dx-container .img-container img, #about-main .story-container .our-tech-container .img-container img, #about-main .story-container .origin-story-container .img-container img, #about-main .story-container .today-container .img-container img {
+  margin: 10px auto;
+}
+#about-main .story-container .need-for-dx-container h3, #about-main .story-container .our-tech-container h3, #about-main .story-container .origin-story-container h3, #about-main .story-container .today-container h3 {
+  color: #FE3200;
+}
+#about-main .story-container .need-for-dx-container p, #about-main .story-container .our-tech-container p, #about-main .story-container .origin-story-container p, #about-main .story-container .today-container p {
+  font-size: 19px;
+  margin-top: 20px;
+    font-weight: 900;
+  color: #ED666B;
+}
+@media (max-width: 640px) {
+  #about-main .story-container .need-for-dx-container p, #about-main .story-container .our-tech-container p, #about-main .story-container .origin-story-container p, #about-main .story-container .today-container p {
+    font-size: 18px;
+  }
+}
+#about-main .story-container .need-for-dx-container ul, #about-main .story-container .our-tech-container ul, #about-main .story-container .origin-story-container ul, #about-main .story-container .today-container ul {
+  margin-top: 30px;
+  list-style-image: url("../img/exam/bullet-v.svg");
+    font-size: 20px;
+    color:red;
+   font-family: "Caveat" , cursive;
+}
+#about-main .story-container .need-for-dx-container ul li, #about-main .story-container .our-tech-container ul li, #about-main .story-container .origin-story-container ul li, #about-main .story-container .today-container ul li {
+  line-height: 25px;
+  padding-left: 5px;
+  color: #ED666B;
+}
+#about-main .our-tech-container .igm{
+    height: 200px;
+}
+#about-main h1{
+    font-family:'Fredericka the Great',sans-serif ;
+    color: orangered;
+    font-weight: 900;
+}
+
+
+#cards{
+    font-size:18px;
+}
+                        /* ==== Cards using Bootstrap === */
+
+#cards .card {
+  border-radius: 20px;
+  min-height: 100%;
+}
+#cards .display-3{
+    font-family: 'cabin sketch',cursive !important;
+    font-weight: 900 !important;
+    color:orangered;
+    font-size:45px;
+    
+}
+#cards .heading-border {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+}
+
+#cards .card .user-picture img {
+  position: absolute;
+  top: -20%;
+  right: 10%;
+  background: #f8f9fa !important;
+  padding: 10px;
+}
+
+#cards .card .user-content .user-name {
+  margin-right: 150px;
+  font-weight: 900;
+  font-size: 18px;
+    color:orangered;
+    font-family:'Fredericka the Great',sans-serif ;
+}
+#cards .card .user-content .text-muted,
+#cards .card .user-content  .blockquote-footer{
+    font-weight: 500;
+    font-size:15px;
+    color: lightcoral !important;
+}
+#cards .card .user-content .mb-0{
+    font-size:14px;
+    color:coral !important;
+}

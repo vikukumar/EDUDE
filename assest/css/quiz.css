@@ -1,0 +1,307 @@
+.ebody{
+    min-height: 300px;
+    max-height: auto;
+}
+.head-q{
+    width:98.5%;
+    padding: 0;
+    text-align: center;
+    margin-top: 5px;
+    font-family: "Georgia", serif;
+    
+}
+.head-q  .imgx{
+   
+    border-bottom: 0.1em solid lightcoral;
+ 
+}
+.head-q  .imgx, .imgx img{
+    height: 55px;
+    text-align: right;
+    
+}
+.imgx img{
+    padding: 3px 0px;
+}
+.head-q  .hx{
+    text-align: left;
+
+     border-bottom: 0.1em solid lightcoral;
+    
+}
+.head-q  h1{
+    font-weight: 900;
+    color: coral;
+    padding-top: 8px;
+}
+.head-q .bd-q .naw-lt{
+    min-height: 200px;
+    text-align: center;
+    border-right: 0.1em solid lightcoral;
+    padding: 0px;
+}
+.head-q .bd-q .naw-lt ul li {
+    list-style: none;
+}
+
+.head-q .bd-q .naw-lt ul li a{
+    font-family: 'Cabin Sketch', cursive;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: 900px;
+    color:deeppink;
+    background: linear-gradient(-45deg,lightcoral,wheat);
+    transition: 0.5s ease-in-out;
+}
+.head-q .bd-q .naw-lt ul li a:hover{
+    background: linear-gradient(45deg,lightcoral,wheat);
+    color:blueviolet;
+}
+.head-q .bd-q .naw-rt{
+    
+}
+.q-d{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: left;
+    overflow: hidden;
+    font-size: 17px;
+    color:chocolate;
+    font-weight: 900;
+} 
+
+.q-body{
+    display: block;
+    width:100%;
+    padding:5px 30px;
+    background-color: cornsilk;
+}
+
+/******************* QUESTION ADD *************************/
+.err{
+    display: block;
+    width: 100%;
+    background: yellow;
+    color:RED;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 18px;
+    font-weight: 900;
+}
+.ques{
+    display: block;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 17px;
+}
+.ques .hed{
+    font-family: 'Fredericka the Great', cursive;
+    display: block;
+    border-bottom: 0.1em solid red;
+}
+.ques .hed h1{
+    font-family: 'Cabin Sketch', cursive;
+    color: orangered;
+}
+.ques .hed label{
+    
+    padding: 10px 20px;
+    color: coral;
+}
+.form-wrapper{
+    display: block;
+    padding: 10px 30px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+form textarea,
+form textarea:active,
+form textarea:focus,
+form textarea:hover{
+    border: none;
+    border: none !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none green !important;
+    outline-offset: 0px !important;
+    outline: none !important;
+    resize: none;
+    border-radius: 15px;
+}
+form{
+    background: url('../img/cc.png');
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    font-family: 'Cabin Sketch', cursive;
+}
+form label{
+    text-align: left;
+    color:orangered;
+}
+form input[type='text'],
+form input[type='number'],
+form input[type='datetime-local'],
+form select,
+form textarea,
+form label,
+.q-body select{
+    padding: 10px 20px;
+    margin-top: 10px;
+    width:100%;
+    font-size: 17px;
+    
+}
+form input[type='text']{
+    border-radius: 50px;
+}
+.btn{
+    text-decoration: none;
+}
+form input[type='submit'],
+.ques .btn{
+    background: linear-gradient(45deg,orange,red);
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 10px 25px;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 900;
+    transition: 0.5s ease-in-out;
+}
+form input[type='submit']:hover, 
+.ques .btn:hover{
+    background: linear-gradient(-45deg,orange,red);
+    color: lavenderblush;
+}
+.addexam form input,
+.addexam form select{
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+.naw-lt .std-exam{
+    display: block;
+    min-height: 200px;
+    max-height: 500px;
+    overflow-y: scroll;
+    padding: 5px 10px;
+}
+.naw-lt .std-exam li a{
+    padding: 5px 60px;
+    border-radius: 20px;
+}
+.naw-lt .std-exam li a h4{
+    padding: 0px 30px;
+}
+.naw-lt .std-exam li a h4 span{
+    display: block;
+    width:100%;
+    text-align: right;
+}
+
+.naw-lt .std-exam li a h5{
+    padding: 0px 20px;
+    
+}
+
+
+
+
+/******************************************************************************
+              EXAM ROOM
+******************************************************************************/
+.ehead nav a span{
+    font-family: 'Cabin Sketch', cursive;
+    padding: 10px 30px;
+    font-size: 30px;
+    color: coral
+}
+.ehead nav .timer{
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 10px 10px;
+    font-family:'Fredericka the Great',sans-serif ;
+    color: green;
+}
+@media only screen and (max-width:600px){
+    .ehead nav a span{
+        padding: 10px 15px;
+    
+    }
+    .ehead nav .timer{
+        margin-right: 20px;
+        font-size: 25px;
+    }
+}
+
+.ebody .out{
+    min-height: 500px;
+    max-height: auto;
+}
+
+.out h1{
+    width:100%;
+    text-align: center;
+}
+.out .io{
+    text-align: center;
+   
+}
+.out .io img{
+    height: 300px;
+}
+
+.out .row a{
+    display: block;
+    padding: 10px 30px;
+    font-size: 19px;
+    font-weight: 900;
+    background: linear-gradient(45deg,red,lightpink);
+    color:white;
+    width:300px;
+    text-align: center;
+    border-radius: 50px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 15px;
+    margin-left: calc(50% - 150px);
+    transition: 0.4s ease-in-out;
+}
+
+
+.out .row a:hover{
+    
+    background: linear-gradient(-45deg,red,lightpink);
+    color:blue;
+}
+
+.out .row a:hover::before{
+    content:'↞';
+}
+
+.out .form{
+    background: #fff;
+    
+}
+.out .form h3{
+    font-family:'Cabin Sketch',sans-serif ;
+}
+.out .form label,
+.out .form input[type='radio']{
+    display: inline-block;
+    width:auto;
+    font-family:'Cabin Sketch',sans-serif ;
+}

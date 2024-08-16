@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="821" height="317" viewBox="0 0 821 317">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #62c75f;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #b884b8;
+      }
+
+      .cls-3 {
+        fill: #4ab1a5;
+      }
+
+      .cls-4 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect y="67.469" width="17.375" height="17.375" rx="8.682" ry="8.682" class="cls-1"/>
+  <rect x="805.813" y="301.281" width="15.187" height="15.188" rx="7.588" ry="7.588" class="cls-2"/>
+  <rect x="151.219" y="103" width="14" height="14" rx="6.997" ry="6.997" class="cls-2"/>
+  <rect x="686" width="9" height="9" rx="4.498" ry="4.498" class="cls-3"/>
+  <rect x="434" y="276" width="9" height="9" rx="4.498" ry="4.498" class="cls-3"/>
+  <rect x="574.438" y="193.719" width="17.343" height="17.375" rx="8.668" ry="8.668" class="cls-1"/>
+  <path d="M141.875,268.156 C146.069,268.156 149.469,271.556 149.469,275.750 C149.469,279.944 146.069,283.344 141.875,283.344 C137.681,283.344 134.281,279.944 134.281,275.750 C134.281,271.556 137.681,268.156 141.875,268.156 Z" class="cls-4"/>
+</svg>

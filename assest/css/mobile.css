@@ -1,0 +1,121 @@
+@media only screen and (max-width: 916px){
+    .itro .dtl img{
+        display: block;
+        text-align: center;
+        margin-left: 30%;
+    }
+    .itro .dtl p{
+        display: block;
+        font-size: 19px;
+    }
+    .itro .dtl p b{
+        display: inline-block;
+        width: 30%;
+    }
+    .itro .dtl p span{
+        display: inline-block;
+        width: 60%;
+    }
+    .display , .add{
+        padding: 5px 10px;
+    }
+    .scrn form, .scrn form .tb{
+        height: auto;
+        width: auto;
+        font-size: 16px;
+    }
+    .scrn{
+        width: 100%;
+        padding: 0px 0px;
+        overflow-x: hidden;
+    }
+    .scrn form .tb label ,
+    .scrn form .tb id,
+    .scrn form .tb name,
+    .scrn form .tb email,
+    .scrn form .tb subject{
+        font-size: 12px;
+        display: inline-block;
+        width:48%;
+    }
+    .scrn form  button{
+        clear: both;
+        display: block;
+        float: none;
+        margin-top: 5px;
+    }
+    .add form label,
+    .add form input
+    {
+        display: inline-block;
+        width:49%;
+        margin-top:5px;
+    }
+    .lec form label
+    {
+        display: inline-block;
+        width:30%;
+        margin-top:5px;
+    }
+    .lec form input, .lec form Select{
+        display: inline-block;
+        width:56%;
+        margin-top:5px;
+    }
+    .add input[type="submit"]{
+        float: none;
+    }
+    .lec{
+     padding: 5px 10px;
+    }
+    .lec  form{
+        display: block;
+        width:100%;
+    }
+    
+    .lec .pro{
+        
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .lec .pro .pro-card{
+        width:100%;
+        overflow: hidden;
+       text-align: center;
+    }
+    .lec .pro .pro-card img{
+       
+        width:40%;
+        
+        text-align: center;
+        
+        
+    }
+    .lec .pro .pro-card form label{
+        display: block;
+        width:100%;
+    }
+}
+.lec .pro .pro-card img{
+       
+        width: 200px;
+        text-align: center;
+      
+        
+    }
+ .lec .pro .pro-card{
+        width:100%;
+        overflow: hidden;
+       text-align: center;
+    }
+.lec .pro .pro-card form label{
+        display: block;
+        width:100%;
+ }
+
+
+ @media only screen and (max-width: 916px){
+    .efoot .foot{
+        display: none;
+    }
+ }

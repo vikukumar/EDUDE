@@ -1,0 +1,8 @@
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_1" opacity="0.4" fill="#ff0000" class="cls-1" r="8" cy="8" cx="8"/>
+  <circle stroke="null" id="svg_2" fill="#ff0000" class="cls-2" r="4" cy="8" cx="8"/>
+ </g>
+</svg>

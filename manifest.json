@@ -1,0 +1,27 @@
+{
+  "name": "Made in India 🇮🇳 ♥",
+  "short_name": "EDUDE",
+  "description": "Online Learning Management System or Virtual School/College.",
+  "icons": [
+    {
+      "src": "assest/img/edu_192X192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assest/img/edu_256X256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "assest/img/edu_512X512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/app",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ED666B"
+}
